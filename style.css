@@ -1,0 +1,251 @@
+*{
+margin: 0;
+padding: 0;
+}
+form {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    font-family: "open sans";
+
+}
+#banner{
+background: linear-gradient(rgba(0,0,0,0.5),#009688),url("bg.jpg");
+background-size: cover;
+background-position: center;
+height: 100vh;
+}
+#aboutme{
+background-color: linear-gradient(rgba(0,0,0,0.5),#009688);
+background-size: cover;
+background-position: center;
+height: 100vh;
+}
+#blackbg {
+background-color: black;
+}
+.banner-text{
+text-align: center;
+color: #fff;
+padding-top: 180px;
+}
+.banner-text h1{
+font-size: 130px;
+}
+.banner-text p{
+font-size: 24px;
+font-style: italic;
+
+}
+body {
+
+
+    color: white;
+    font-family: "open sans";
+
+}
+#aboutmebio {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+#submit {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px
+}
+#forms {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.3);
+
+
+}
+.projectlist {
+   background-color: rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+display: flex;
+    justify-content: center;
+color: white;
+    font-family: "open sans";
+
+}
+
+div {
+    font-family: "open sans";
+}
+
+footer {
+ display: flex;
+  justify-content: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  gap: 20px;
+}
+
+nav {
+background-color: rgba(0, 0, 0, 0.7);
+position: fixed;
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 20px;
+}
+
+a.home{
+background: #009688;
+transition: .5s;
+}
+a.home:hover{
+background: #009688;
+transition: .5s;
+}
+a.projects{
+background: #009688;
+transition: .5s;
+}
+a.projects:hover{
+background: #009688;
+transition: .5s;
+}
+a.aboutme{
+background: #009688;
+transition: .5s;
+}
+a.aboutme:hover{
+background: #009688;
+transition: .5s;
+}
+a.contact{
+background: #009688;
+}
+a.contact:hover{
+background: #009688;
+transition: .5s;
+}
+nav ul{
+display: flex;
+margin-right: 20px;
+}
+nav ul li{
+
+display: flex;
+line-height: 60px;
+margin: 0 5px;
+}
+
+
+nav ul li a{
+color: white;
+font-size: 17px;
+padding: 7px 13px;
+border-radius: 3px;
+text-transform: uppercase;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+p {
+display: flex;
+  justify-content: center;
+}
+ul {
+
+    font-family: "open sans";
+
+}
+.uc {
+    color: red;
+    font-family: "open sans";
+    display: flex;
+      justify-content: center;
+
+}
+
+head {
+    font-family: "open sans";
+}
+#projects{
+    width: 100%;
+    padding: 70px 0;
+}
+.title-text{
+text-align: center;
+padding-bottom: 70px;
+color: #009688
+}
+.title-text p {
+margin: auto;
+font-size: 20px;
+color: #009688;
+font-weight: bold;
+position: relative;
+z-index: 1;
+display: inline-block;
+}
+.title-text p::after{
+content: '';
+width: 50px;
+height: 35px;
+}
+.title-text h1 {
+font-size: 50px;
+color: #009688;
+}
+
+.projects-box{
+width: 80%;
+margin: auto;
+display: flex;
+flex-wrap: wrap;
+align-items: center;
+text-align: center;
+}
+.projects-box h1{
+color: black;
+}
+.project{
+flex-basis: 50%;
+}
+.project-img {
+flex-basis: 50%;
+margin: auto;
+}
+.project-img img{
+width: 70%;
+border-radius: 5px;
+}
+.projects-text p {
+color: black;
+}
+
+.aboutmediv{
+width: 75%;
+margin: auto;
+display: flex;
+flex-wrap: wrap;
+align-items: center;
+text-align: center;
+}
+
+.about-text p {
+text-align: center;
+padding-bottom: 70px;
+font-size: 48px;
+font-style: italic;
+color: black;
+}
